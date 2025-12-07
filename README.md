@@ -44,18 +44,20 @@ El objetivo de este proyecto es:
 ## ▶️ ¿Cómo ejecutar las pruebas?
 
 - Ejecutar todas las pruebas:
-
+```
 pytest -s
-
+```
 
 - Ejecutar un archivo específico:
-
+```
 pytest tests/test_get_posts.py -s
-
+```
 
 - Generar reporte HTML:
-
+```
 pytest --html=report.html --self-contained-html
+```
+---
 
 ## 📊 ¿Cómo interpretar los reportes generados?
 
@@ -78,6 +80,7 @@ Solo debes abrir el archivo en tu navegador:
 ./report.html
 
 🧪 Endpoints probados (ejemplos)
+
 ✔️ GET /posts
 
 - Validación de código de estado 200
