@@ -29,14 +29,7 @@ El objetivo de este proyecto es:
 
 ```
 📦 mi-proyecto-api
-├── tests/
-│ ├── test_get_posts.py
-│ ├── test_create_post.py
-│ ├── test_delete_post.py
-│ └── init.py
-├── utils/
-│ └── helpers.py # Funciones auxiliares (si aplica)
-├── requirements.txt
+├── tests_req.py
 └── README.md
 ```
 ---
@@ -46,11 +39,6 @@ El objetivo de este proyecto es:
 - Ejecutar todas las pruebas:
 ```
 pytest -s
-```
-
-- Ejecutar un archivo específico:
-```
-pytest tests/test_get_posts.py -s
 ```
 
 - Generar reporte HTML:
